@@ -1,0 +1,5 @@
+package marcelo.com.main.entities;
+
+public class Sale {
+
+}
