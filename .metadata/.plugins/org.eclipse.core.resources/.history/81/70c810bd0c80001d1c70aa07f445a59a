@@ -1,0 +1,21 @@
+package marcelo.com.main.services;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import marcelo.com.main.entities.Sale;
+import marcelo.com.main.repositories.SaleRepository;
+
+@Service
+public class SaleService {
+
+	
+	@Autowired
+	SaleRepository sr;
+	
+	public List<Sale> findSales() {
+		return sr.findAll();
+	}
+}
