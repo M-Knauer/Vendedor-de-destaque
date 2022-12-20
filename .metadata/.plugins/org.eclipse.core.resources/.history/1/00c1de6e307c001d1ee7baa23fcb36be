@@ -1,0 +1,5 @@
+package marcelo.com.main.dsmeta.config;
+
+public class SecurityConfig {
+
+}
